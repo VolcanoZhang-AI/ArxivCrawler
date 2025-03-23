@@ -1,0 +1,13 @@
+{
+    "qwen_api_key": "sk-1212b541dbff4976aa5975e4b369093e",
+    "qwen_api_base": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "max_tokens": 1000,
+    "temperature": 0.7,
+    "model_name": "qwen-max",
+    
+    "_comment": "如果需要使用代理，请将_proxies改名为proxies，并修改下面的代理地址",
+    "_proxies": {
+        "http": "http://127.0.0.1:7890",
+        "https": "http://127.0.0.1:7890"
+    }
+} 

@@ -1,0 +1,1807 @@
+2025-03-23 16:50:31,662 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 16:50:32,162 - jieba - DEBUG - Dumping model to file cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 16:50:32,221 - jieba - DEBUG - Loading model cost 0.558 seconds.
+2025-03-23 16:50:32,221 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 16:50:32,223 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 16:50:32,223 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 16:50:32,223 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 16:50:32,223 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 16:50:32,234 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 16:50:32,234 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 16:50:34,775 - arxiv.arxiv - INFO - Got first page; 500 of 500 results available
+2025-03-23 16:50:34,782 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 16:50:34,782 - arxiv.arxiv - INFO - Sleeping for 2.992212 seconds
+2025-03-23 16:50:37,784 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 16:50:40,240 - arxiv.arxiv - INFO - Requesting 100 results at offset 200
+2025-03-23 16:50:40,241 - arxiv.arxiv - INFO - Sleeping for 2.996693 seconds
+2025-03-23 16:50:43,242 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 16:50:44,826 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 16:50:47,843 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 16:51:01,563 - arxiv.arxiv - INFO - Requesting 100 results at offset 300
+2025-03-23 16:51:01,563 - arxiv.arxiv - INFO - Sleeping for 2.991901 seconds
+2025-03-23 16:51:04,561 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 16:51:07,523 - arxiv.arxiv - INFO - Requesting 100 results at offset 400
+2025-03-23 16:51:07,524 - arxiv.arxiv - INFO - Sleeping for 2.994926 seconds
+2025-03-23 16:51:10,528 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 16:51:13,458 - ArxivCrawler - INFO - 获取到 500 篇论文，其中最近5天: 500篇，最近1天: 0篇
+2025-03-23 16:51:13,458 - ArxivCrawler - INFO - 最近5天找到500篇相关论文
+2025-03-23 16:51:13,458 - ArxivCrawler - INFO - 最近1天找到0篇相关论文
+2025-03-23 16:51:14,600 - ArxivCrawler - WARNING - 没有论文可供分析
+2025-03-23 16:51:14,600 - ArxivCrawler - INFO - 开始下载热点论文PDF...
+2025-03-23 16:51:14,602 - ArxivCrawler - INFO - 正在下载论文: 2503.16094v1
+2025-03-23 16:51:14,606 - ArxivCrawler - INFO - 正在下载论文: 2503.15248v1
+2025-03-23 16:51:14,606 - ArxivCrawler - INFO - 正在下载论文: 2503.16334v1
+2025-03-23 16:51:14,606 - ArxivCrawler - INFO - 正在下载论文: 2503.15866v1
+2025-03-23 16:51:14,608 - ArxivCrawler - INFO - 正在下载论文: 2503.15793v1
+2025-03-23 16:51:15,224 - ArxivCrawler - INFO - 论文下载完成: 2503.15793v1
+2025-03-23 16:51:15,225 - ArxivCrawler - INFO - 正在下载论文: 2503.15726v1
+2025-03-23 16:51:15,274 - ArxivCrawler - INFO - 论文下载完成: 2503.16334v1
+2025-03-23 16:51:15,276 - ArxivCrawler - INFO - 正在下载论文: 2503.15478v1
+2025-03-23 16:51:15,339 - ArxivCrawler - INFO - 论文下载完成: 2503.15866v1
+2025-03-23 16:51:15,340 - ArxivCrawler - INFO - 正在下载论文: 2503.15426v1
+2025-03-23 16:51:15,343 - ArxivCrawler - INFO - 论文下载完成: 2503.16094v1
+2025-03-23 16:51:15,344 - ArxivCrawler - INFO - 正在下载论文: 2503.15579v1
+2025-03-23 16:51:15,760 - ArxivCrawler - INFO - 论文下载完成: 2503.15248v1
+2025-03-23 16:51:15,761 - ArxivCrawler - INFO - 正在下载论文: 2503.14939v1
+2025-03-23 16:51:15,981 - ArxivCrawler - INFO - 论文下载完成: 2503.15726v1
+2025-03-23 16:51:16,450 - ArxivCrawler - INFO - 论文下载完成: 2503.15426v1
+2025-03-23 16:51:17,515 - ArxivCrawler - INFO - 论文下载完成: 2503.14939v1
+2025-03-23 16:51:19,138 - ArxivCrawler - INFO - 论文下载完成: 2503.15579v1
+2025-03-23 16:51:19,251 - ArxivCrawler - INFO - 论文下载完成: 2503.15478v1
+2025-03-23 16:51:19,252 - ArxivCrawler - INFO - 成功下载 10 篇热点论文PDF
+2025-03-23 16:51:19,263 - ArxivCrawler - WARNING - 没有论文可供分析
+2025-03-23 16:51:20,406 - ArxivCrawler - INFO - 报告已生成: arxiv_reports\LLM研究热点报告_2025年03月23日.md
+2025-03-23 16:51:20,435 - ArxivCrawler - INFO - 类别分布图已生成
+2025-03-23 16:51:20,442 - ArxivCrawler - INFO - 关键词词云图已生成
+2025-03-23 16:51:20,444 - ArxivCrawler - INFO - 论文分析完成，报告已保存至: arxiv_reports\LLM研究热点报告_2025年03月23日.md
+2025-03-23 16:51:20,444 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 17:03:27,987 - ArxivCrawler - ERROR - 初始化Qwen API客户端失败: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-23 17:03:27,987 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 17:03:27,999 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 17:03:28,575 - jieba - DEBUG - Loading model cost 0.588 seconds.
+2025-03-23 17:03:28,575 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 17:03:28,575 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 17:03:28,575 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 17:03:28,575 - ArxivCrawler - WARNING - 未启用Qwen API或初始化失败，将使用正则表达式提取论文内容
+2025-03-23 17:03:28,575 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 17:03:28,591 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 17:03:28,591 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 17:03:28,591 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:03:30,831 - arxiv.arxiv - INFO - Got first page; 500 of 500 results available
+2025-03-23 17:03:30,839 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 17:03:30,840 - arxiv.arxiv - INFO - Sleeping for 2.990665 seconds
+2025-03-23 17:03:33,838 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:03:35,157 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:03:38,164 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:03:39,288 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:03:42,308 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:03:43,753 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:03:46,763 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:03:47,865 - ArxivCrawler - ERROR - 搜索API调用出错: Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=all%3A%22large+language+model%22+OR+all%3A%22LLM%22+OR+all%3A%22GPT%22+OR+all%3A%22ChatGPT%22+OR+all%3A%22transformer%22+OR+all%3A%22generative+AI%22+OR+all%3A%22language+model%22+OR+all%3A%22foundation+model%22+OR+all%3A%22Llama%22+OR+all%3A%22Claude%22+OR+all%3A%22Gemini%22+OR+all%3A%22agent%22+OR+all%3A%22multimodal%22+OR+all%3A%22instruction+tuning%22+OR+all%3A%22prompt%22+OR+all%3A%22fine-tuning%22+OR+all%3A%22alignment%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=100&max_results=100)
+2025-03-23 17:03:47,865 - ArxivCrawler - ERROR - 获取论文时发生错误: Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=all%3A%22large+language+model%22+OR+all%3A%22LLM%22+OR+all%3A%22GPT%22+OR+all%3A%22ChatGPT%22+OR+all%3A%22transformer%22+OR+all%3A%22generative+AI%22+OR+all%3A%22language+model%22+OR+all%3A%22foundation+model%22+OR+all%3A%22Llama%22+OR+all%3A%22Claude%22+OR+all%3A%22Gemini%22+OR+all%3A%22agent%22+OR+all%3A%22multimodal%22+OR+all%3A%22instruction+tuning%22+OR+all%3A%22prompt%22+OR+all%3A%22fine-tuning%22+OR+all%3A%22alignment%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=100&max_results=100)
+2025-03-23 17:03:47,865 - ArxivCrawler - INFO - 将在 5 秒后重试...
+2025-03-23 17:03:52,872 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 17:03:52,872 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 17:03:52,872 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:03:55,011 - arxiv.arxiv - INFO - Got first page; 500 of 500 results available
+2025-03-23 17:03:55,022 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 17:03:55,022 - arxiv.arxiv - INFO - Sleeping for 2.989157 seconds
+2025-03-23 17:03:58,013 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:04:01,243 - arxiv.arxiv - INFO - Requesting 100 results at offset 200
+2025-03-23 17:04:01,243 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:04:04,249 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:04:08,128 - arxiv.arxiv - INFO - Requesting 100 results at offset 300
+2025-03-23 17:04:08,128 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:04:11,139 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:04:12,195 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:04:15,201 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:04:16,818 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:04:19,826 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:04:22,144 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:04:25,148 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:04:26,722 - ArxivCrawler - ERROR - 搜索API调用出错: Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=all%3A%22large+language+model%22+OR+all%3A%22LLM%22+OR+all%3A%22GPT%22+OR+all%3A%22ChatGPT%22+OR+all%3A%22transformer%22+OR+all%3A%22generative+AI%22+OR+all%3A%22language+model%22+OR+all%3A%22foundation+model%22+OR+all%3A%22Llama%22+OR+all%3A%22Claude%22+OR+all%3A%22Gemini%22+OR+all%3A%22agent%22+OR+all%3A%22multimodal%22+OR+all%3A%22instruction+tuning%22+OR+all%3A%22prompt%22+OR+all%3A%22fine-tuning%22+OR+all%3A%22alignment%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=300&max_results=100)
+2025-03-23 17:04:26,723 - ArxivCrawler - ERROR - 获取论文时发生错误: Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=all%3A%22large+language+model%22+OR+all%3A%22LLM%22+OR+all%3A%22GPT%22+OR+all%3A%22ChatGPT%22+OR+all%3A%22transformer%22+OR+all%3A%22generative+AI%22+OR+all%3A%22language+model%22+OR+all%3A%22foundation+model%22+OR+all%3A%22Llama%22+OR+all%3A%22Claude%22+OR+all%3A%22Gemini%22+OR+all%3A%22agent%22+OR+all%3A%22multimodal%22+OR+all%3A%22instruction+tuning%22+OR+all%3A%22prompt%22+OR+all%3A%22fine-tuning%22+OR+all%3A%22alignment%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=300&max_results=100)
+2025-03-23 17:04:26,723 - ArxivCrawler - INFO - 将在 5 秒后重试...
+2025-03-23 17:04:31,725 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 17:04:31,725 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 17:04:31,726 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:04:34,135 - arxiv.arxiv - INFO - Got first page; 500 of 500 results available
+2025-03-23 17:04:34,141 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 17:04:34,141 - arxiv.arxiv - INFO - Sleeping for 2.994421 seconds
+2025-03-23 17:04:37,152 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:04:38,188 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:04:41,197 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:04:43,215 - arxiv.arxiv - INFO - Requesting 100 results at offset 200
+2025-03-23 17:04:43,216 - arxiv.arxiv - INFO - Sleeping for 2.995590 seconds
+2025-03-23 17:04:46,213 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:04:47,418 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:04:50,419 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:04:54,207 - arxiv.arxiv - INFO - Requesting 100 results at offset 300
+2025-03-23 17:04:54,207 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:04:57,217 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:04:58,558 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:05:01,561 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:05:02,827 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:05:05,831 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:05:09,927 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:05:12,929 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:05:14,844 - ArxivCrawler - ERROR - 搜索API调用出错: Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=all%3A%22large+language+model%22+OR+all%3A%22LLM%22+OR+all%3A%22GPT%22+OR+all%3A%22ChatGPT%22+OR+all%3A%22transformer%22+OR+all%3A%22generative+AI%22+OR+all%3A%22language+model%22+OR+all%3A%22foundation+model%22+OR+all%3A%22Llama%22+OR+all%3A%22Claude%22+OR+all%3A%22Gemini%22+OR+all%3A%22agent%22+OR+all%3A%22multimodal%22+OR+all%3A%22instruction+tuning%22+OR+all%3A%22prompt%22+OR+all%3A%22fine-tuning%22+OR+all%3A%22alignment%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=300&max_results=100)
+2025-03-23 17:05:14,845 - ArxivCrawler - ERROR - 获取论文时发生错误: Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=all%3A%22large+language+model%22+OR+all%3A%22LLM%22+OR+all%3A%22GPT%22+OR+all%3A%22ChatGPT%22+OR+all%3A%22transformer%22+OR+all%3A%22generative+AI%22+OR+all%3A%22language+model%22+OR+all%3A%22foundation+model%22+OR+all%3A%22Llama%22+OR+all%3A%22Claude%22+OR+all%3A%22Gemini%22+OR+all%3A%22agent%22+OR+all%3A%22multimodal%22+OR+all%3A%22instruction+tuning%22+OR+all%3A%22prompt%22+OR+all%3A%22fine-tuning%22+OR+all%3A%22alignment%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=300&max_results=100)
+2025-03-23 17:05:14,845 - ArxivCrawler - ERROR - 达到最大重试次数，获取论文失败
+2025-03-23 17:05:14,846 - ArxivCrawler - ERROR - 程序执行过程中发生错误: Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=all%3A%22large+language+model%22+OR+all%3A%22LLM%22+OR+all%3A%22GPT%22+OR+all%3A%22ChatGPT%22+OR+all%3A%22transformer%22+OR+all%3A%22generative+AI%22+OR+all%3A%22language+model%22+OR+all%3A%22foundation+model%22+OR+all%3A%22Llama%22+OR+all%3A%22Claude%22+OR+all%3A%22Gemini%22+OR+all%3A%22agent%22+OR+all%3A%22multimodal%22+OR+all%3A%22instruction+tuning%22+OR+all%3A%22prompt%22+OR+all%3A%22fine-tuning%22+OR+all%3A%22alignment%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=300&max_results=100)
+2025-03-23 17:05:14,846 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 17:06:58,837 - ArxivCrawler - ERROR - 初始化Qwen API客户端失败: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-23 17:06:58,838 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 17:06:58,839 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 17:06:59,416 - jieba - DEBUG - Loading model cost 0.577 seconds.
+2025-03-23 17:06:59,417 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 17:06:59,418 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 17:06:59,418 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 17:06:59,418 - ArxivCrawler - WARNING - 未启用Qwen API或初始化失败，将使用正则表达式提取论文内容
+2025-03-23 17:06:59,418 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 17:06:59,419 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 17:06:59,419 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 17:06:59,420 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:12:28,632 - ArxivCrawler - ERROR - 初始化Qwen API客户端失败: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-23 17:12:28,633 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 17:12:28,635 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 17:12:29,193 - jieba - DEBUG - Loading model cost 0.560 seconds.
+2025-03-23 17:12:29,194 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 17:12:29,195 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 17:12:29,195 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 17:12:29,195 - ArxivCrawler - WARNING - 未启用Qwen API或初始化失败，将使用正则表达式提取论文内容
+2025-03-23 17:12:29,196 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 17:12:29,196 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 17:12:29,196 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 17:12:29,196 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:12:31,646 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 17:19:46,161 - ArxivCrawler - ERROR - 初始化Qwen API客户端失败: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-23 17:19:46,161 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 17:19:46,161 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 17:19:46,747 - jieba - DEBUG - Loading model cost 0.586 seconds.
+2025-03-23 17:19:46,747 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 17:19:46,747 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 17:19:46,747 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 17:19:46,747 - ArxivCrawler - INFO - OpenAI包版本: 1.12.0
+2025-03-23 17:19:46,747 - ArxivCrawler - INFO - HTTP代理环境变量: 未设置
+2025-03-23 17:19:46,747 - ArxivCrawler - INFO - HTTPS代理环境变量: 未设置
+2025-03-23 17:19:46,747 - ArxivCrawler - WARNING - 未启用Qwen API或初始化失败，将使用正则表达式提取论文内容
+2025-03-23 17:19:46,747 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 17:19:46,747 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 17:19:46,747 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 17:19:46,747 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:19:48,685 - arxiv.arxiv - INFO - Got first page; 500 of 500 results available
+2025-03-23 17:19:48,691 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 17:19:48,691 - arxiv.arxiv - INFO - Sleeping for 2.994842 seconds
+2025-03-23 17:19:51,691 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:19:52,927 - arxiv.arxiv - INFO - Sleeping for 2.999682 seconds
+2025-03-23 17:19:55,933 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:19:56,933 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:19:59,947 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 17:20:02,220 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 17:20:04,069 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 17:32:53,856 - ArxivCrawler - INFO - OpenAI客户端支持的参数: ['self', 'api_key', 'organization', 'base_url', 'timeout', 'max_retries', 'default_headers', 'default_query', 'http_client', '_strict_response_validation']
+2025-03-23 17:32:53,856 - ArxivCrawler - INFO - 使用以下参数初始化OpenAI客户端: {'api_key': 'sk-1212b541dbff4976aa5975e4b369093e', 'base_url': 'https://dashscope.aliyuncs.com/compatible-mode/v1'}
+2025-03-23 17:32:53,856 - ArxivCrawler - ERROR - 初始化Qwen API客户端失败: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-23 17:32:53,856 - ArxivCrawler - ERROR - 错误详情: Traceback (most recent call last):
+  File "d:\Desktop\GithubFolder\ArxivCrawler\arxiv_crawler.py", line 82, in <module>
+    qwen_client = OpenAI(**client_kwargs)
+  File "c:\Users\Can\AppData\Local\Programs\Python\Python310\lib\site-packages\openai\_client.py", line 112, in __init__
+    super().__init__(
+  File "c:\Users\Can\AppData\Local\Programs\Python\Python310\lib\site-packages\openai\_base_client.py", line 793, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-23 17:32:53,856 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 17:32:53,856 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 17:32:54,411 - jieba - DEBUG - Loading model cost 0.555 seconds.
+2025-03-23 17:32:54,412 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 17:32:54,414 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 17:32:54,415 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 17:32:54,415 - ArxivCrawler - INFO - OpenAI包版本: 1.12.0
+2025-03-23 17:32:54,415 - ArxivCrawler - INFO - HTTP代理环境变量: 未设置
+2025-03-23 17:32:54,415 - ArxivCrawler - INFO - HTTPS代理环境变量: 未设置
+2025-03-23 17:32:54,416 - ArxivCrawler - WARNING - 未启用Qwen API或初始化失败，将使用正则表达式提取论文内容
+2025-03-23 17:32:54,416 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 17:32:54,416 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 17:32:54,416 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 17:32:54,416 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 20:00:56,310 - ArxivCrawler - INFO - OpenAI客户端支持的参数: ['self', 'api_key', 'organization', 'base_url', 'timeout', 'max_retries', 'default_headers', 'default_query', 'http_client', '_strict_response_validation']
+2025-03-23 20:00:56,310 - ArxivCrawler - INFO - 使用以下参数初始化OpenAI客户端: {'api_key': 'sk-1212b541dbff4976aa5975e4b369093e', 'base_url': 'https://dashscope.aliyuncs.com/compatible-mode/v1'}
+2025-03-23 20:00:56,310 - ArxivCrawler - ERROR - 初始化Qwen API客户端失败: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-23 20:00:56,310 - ArxivCrawler - ERROR - 错误详情: Traceback (most recent call last):
+  File "d:\Desktop\GithubFolder\ArxivCrawler\arxiv_crawler.py", line 82, in <module>
+    qwen_client = OpenAI(**client_kwargs)
+  File "C:\Users\Can\AppData\Local\Programs\Python\Python310\lib\site-packages\openai\_client.py", line 107, in __init__
+    super().__init__(
+  File "C:\Users\Can\AppData\Local\Programs\Python\Python310\lib\site-packages\openai\_base_client.py", line 738, in __init__
+    self._client = http_client or httpx.Client(
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-23 20:00:56,310 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 20:00:56,310 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 20:00:56,863 - jieba - DEBUG - Loading model cost 0.553 seconds.
+2025-03-23 20:00:56,869 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 20:00:56,869 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 20:00:56,869 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 20:00:56,869 - ArxivCrawler - INFO - OpenAI包版本: 1.3.0
+2025-03-23 20:00:56,869 - ArxivCrawler - INFO - HTTP代理环境变量: 未设置
+2025-03-23 20:00:56,869 - ArxivCrawler - INFO - HTTPS代理环境变量: 未设置
+2025-03-23 20:00:56,869 - ArxivCrawler - WARNING - 未启用Qwen API或初始化失败，将使用正则表达式提取论文内容
+2025-03-23 20:00:56,869 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 20:00:56,869 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 20:00:56,869 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 20:00:56,869 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 20:01:06,352 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 20:02:22,375 - ArxivCrawler - INFO - OpenAI客户端支持的参数: ['self', 'api_key', 'organization', 'base_url', 'timeout', 'max_retries', 'default_headers', 'default_query', 'http_client', '_strict_response_validation']
+2025-03-23 20:02:22,375 - ArxivCrawler - INFO - 使用以下参数初始化OpenAI客户端: {'api_key': 'sk-1212b541dbff4976aa5975e4b369093e', 'base_url': 'https://dashscope.aliyuncs.com/compatible-mode/v1'}
+2025-03-23 20:02:22,386 - ArxivCrawler - ERROR - 初始化Qwen API客户端失败: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-23 20:02:22,387 - ArxivCrawler - ERROR - 错误详情: Traceback (most recent call last):
+  File "d:\Desktop\GithubFolder\ArxivCrawler\arxiv_crawler.py", line 82, in <module>
+    qwen_client = OpenAI(**client_kwargs)
+  File "C:\Users\Can\AppData\Local\Programs\Python\Python310\lib\site-packages\openai\_client.py", line 107, in __init__
+    super().__init__(
+  File "C:\Users\Can\AppData\Local\Programs\Python\Python310\lib\site-packages\openai\_base_client.py", line 738, in __init__
+    self._client = http_client or httpx.Client(
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-23 20:02:22,387 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 20:02:22,389 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 20:02:22,970 - jieba - DEBUG - Loading model cost 0.582 seconds.
+2025-03-23 20:02:22,970 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 20:02:22,970 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 20:02:22,970 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 20:02:22,970 - ArxivCrawler - INFO - OpenAI包版本: 1.3.0
+2025-03-23 20:02:22,970 - ArxivCrawler - INFO - HTTP代理环境变量: 未设置
+2025-03-23 20:02:22,970 - ArxivCrawler - INFO - HTTPS代理环境变量: 未设置
+2025-03-23 20:02:22,970 - ArxivCrawler - WARNING - 未启用Qwen API或初始化失败，将使用正则表达式提取论文内容
+2025-03-23 20:02:22,970 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 20:02:22,970 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 20:02:22,970 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 20:02:22,970 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 20:02:32,444 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 20:06:31,068 - ArxivCrawler - ERROR - 加载配置文件时出错: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-23 20:06:31,078 - ArxivCrawler - ERROR - 错误详情: Traceback (most recent call last):
+  File "d:\Desktop\GithubFolder\ArxivCrawler\arxiv_crawler.py", line 53, in <module>
+    http_client = httpx.Client(proxies=proxies)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-23 20:06:31,078 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 20:06:31,080 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 20:06:31,628 - jieba - DEBUG - Loading model cost 0.551 seconds.
+2025-03-23 20:06:31,628 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 20:06:31,628 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 20:06:31,634 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 20:06:31,634 - ArxivCrawler - INFO - OpenAI包版本: 1.3.0
+2025-03-23 20:06:31,634 - ArxivCrawler - INFO - HTTP代理环境变量: 未设置
+2025-03-23 20:06:31,634 - ArxivCrawler - INFO - HTTPS代理环境变量: 未设置
+2025-03-23 20:06:31,634 - ArxivCrawler - WARNING - 未启用Qwen API或初始化失败，将使用正则表达式提取论文内容
+2025-03-23 20:06:31,634 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 20:06:31,634 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 20:06:31,634 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 20:06:31,634 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 20:06:42,772 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 21:14:00,061 - ArxivCrawler - ERROR - 加载配置文件时出错: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-23 21:14:00,062 - ArxivCrawler - ERROR - 错误详情: Traceback (most recent call last):
+  File "d:\Desktop\GithubFolder\ArxivCrawler\arxiv_crawler.py", line 53, in <module>
+    http_client = httpx.Client(proxies=proxies)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-23 21:14:00,062 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 21:14:00,064 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 21:14:00,780 - jieba - DEBUG - Loading model cost 0.717 seconds.
+2025-03-23 21:14:00,781 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 21:14:00,782 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 21:14:00,782 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 21:14:00,782 - ArxivCrawler - INFO - OpenAI包版本: 1.12.0
+2025-03-23 21:14:00,782 - ArxivCrawler - INFO - HTTP代理环境变量: 未设置
+2025-03-23 21:14:00,782 - ArxivCrawler - INFO - HTTPS代理环境变量: 未设置
+2025-03-23 21:14:00,782 - ArxivCrawler - WARNING - 未启用Qwen API或初始化失败，将使用正则表达式提取论文内容
+2025-03-23 21:14:00,782 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 21:14:00,782 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:14:00,782 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 21:14:00,782 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:14:02,998 - arxiv.arxiv - INFO - Got first page; 500 of 500 results available
+2025-03-23 21:14:02,998 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 21:14:02,998 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:14:06,004 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:14:08,096 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 21:15:03,098 - ArxivCrawler - ERROR - 加载配置文件时出错: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-23 21:15:03,099 - ArxivCrawler - ERROR - 错误详情: Traceback (most recent call last):
+  File "d:\Desktop\GithubFolder\ArxivCrawler\arxiv_crawler.py", line 53, in <module>
+    http_client = httpx.Client(proxies=proxies)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-23 21:15:03,100 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 21:15:03,102 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 21:15:03,643 - jieba - DEBUG - Loading model cost 0.543 seconds.
+2025-03-23 21:15:03,643 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 21:15:03,643 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 21:15:03,643 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 21:15:03,643 - ArxivCrawler - INFO - OpenAI包版本: 1.12.0
+2025-03-23 21:15:03,643 - ArxivCrawler - INFO - HTTP代理环境变量: 未设置
+2025-03-23 21:15:03,643 - ArxivCrawler - INFO - HTTPS代理环境变量: 未设置
+2025-03-23 21:15:03,643 - ArxivCrawler - WARNING - 未启用Qwen API或初始化失败，将使用正则表达式提取论文内容
+2025-03-23 21:15:03,643 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 21:15:03,643 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:15:03,643 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 21:15:03,643 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:15:05,740 - arxiv.arxiv - INFO - Got first page; 500 of 500 results available
+2025-03-23 21:15:05,740 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 21:15:05,740 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:15:08,753 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:15:10,866 - arxiv.arxiv - INFO - Requesting 100 results at offset 200
+2025-03-23 21:15:10,866 - arxiv.arxiv - INFO - Sleeping for 2.997998 seconds
+2025-03-23 21:15:13,867 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:15:15,186 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:15:18,188 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:15:20,957 - arxiv.arxiv - INFO - Requesting 100 results at offset 300
+2025-03-23 21:15:20,957 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:15:23,972 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:15:27,586 - arxiv.arxiv - INFO - Requesting 100 results at offset 400
+2025-03-23 21:15:27,586 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:15:30,591 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:15:33,487 - ArxivCrawler - INFO - 获取到 500 篇论文，其中最近5天: 500篇，最近1天: 0篇
+2025-03-23 21:15:33,487 - ArxivCrawler - INFO - 最近5天找到500篇相关论文
+2025-03-23 21:15:33,487 - ArxivCrawler - INFO - 最近1天找到0篇相关论文
+2025-03-23 21:15:34,500 - ArxivCrawler - WARNING - 没有论文可供分析
+2025-03-23 21:15:34,500 - ArxivCrawler - INFO - 开始下载热点论文PDF...
+2025-03-23 21:15:34,500 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16094v1
+2025-03-23 21:15:34,500 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.15248v1
+2025-03-23 21:15:34,500 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16334v1
+2025-03-23 21:15:34,500 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.15866v1
+2025-03-23 21:15:34,500 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.15793v1
+2025-03-23 21:15:34,500 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.15726v1
+2025-03-23 21:15:34,500 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.15478v1
+2025-03-23 21:15:34,500 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.15426v1
+2025-03-23 21:15:34,500 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.15579v1
+2025-03-23 21:15:34,500 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.14939v1
+2025-03-23 21:15:34,500 - ArxivCrawler - INFO - 成功下载 10 篇热点论文PDF
+2025-03-23 21:15:34,500 - ArxivCrawler - WARNING - 没有论文可供分析
+2025-03-23 21:15:35,547 - ArxivCrawler - INFO - 报告已生成: arxiv_reports\LLM研究热点报告_2025年03月23日.md
+2025-03-23 21:15:35,573 - ArxivCrawler - INFO - 类别分布图已生成
+2025-03-23 21:15:35,575 - ArxivCrawler - INFO - 关键词词云图已生成
+2025-03-23 21:15:35,575 - ArxivCrawler - INFO - 论文分析完成，报告已保存至: arxiv_reports\LLM研究热点报告_2025年03月23日.md
+2025-03-23 21:15:35,576 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 21:18:41,050 - ArxivCrawler - INFO - 未配置代理，使用默认连接方式
+2025-03-23 21:18:41,050 - ArxivCrawler - ERROR - 初始化Qwen API客户端失败: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-23 21:18:41,053 - ArxivCrawler - ERROR - 错误详情: Traceback (most recent call last):
+  File "D:\Desktop\GithubFolder\ArxivCrawler\arxiv_crawler.py", line 71, in <module>
+    qwen_client = OpenAI(
+                  ^^^^^^^
+  File "d:\Desktop\GithubFolder\ArxivCrawler\arxiv\Lib\site-packages\openai\_client.py", line 112, in __init__
+    super().__init__(
+  File "d:\Desktop\GithubFolder\ArxivCrawler\arxiv\Lib\site-packages\openai\_base_client.py", line 793, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-23 21:18:41,053 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 21:18:41,054 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 21:18:41,651 - jieba - DEBUG - Loading model cost 0.598 seconds.
+2025-03-23 21:18:41,651 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 21:18:41,651 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 21:18:41,651 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 21:18:41,651 - ArxivCrawler - INFO - OpenAI包版本: 1.12.0
+2025-03-23 21:18:41,651 - ArxivCrawler - INFO - HTTP代理环境变量: 未设置
+2025-03-23 21:18:41,651 - ArxivCrawler - INFO - HTTPS代理环境变量: 未设置
+2025-03-23 21:18:41,651 - ArxivCrawler - WARNING - 未启用Qwen API或初始化失败，将使用正则表达式提取论文内容
+2025-03-23 21:18:41,656 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 21:18:41,656 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:18:41,656 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 21:18:41,656 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:18:44,609 - arxiv.arxiv - INFO - Got first page; 500 of 500 results available
+2025-03-23 21:18:44,620 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 21:18:44,621 - arxiv.arxiv - INFO - Sleeping for 2.988437 seconds
+2025-03-23 21:18:46,288 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 21:19:54,918 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-23 21:19:54,918 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-23 21:19:54,919 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:19:54,919 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:19:54,919 - ArxivCrawler - ERROR - 初始化Qwen API客户端失败: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-23 21:19:54,921 - ArxivCrawler - ERROR - 错误详情: Traceback (most recent call last):
+  File "D:\Desktop\GithubFolder\ArxivCrawler\arxiv_crawler.py", line 73, in <module>
+    qwen_client = OpenAI(
+                  ^^^^^^^
+  File "d:\Desktop\GithubFolder\ArxivCrawler\arxiv\Lib\site-packages\openai\_client.py", line 112, in __init__
+    super().__init__(
+  File "d:\Desktop\GithubFolder\ArxivCrawler\arxiv\Lib\site-packages\openai\_base_client.py", line 793, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2025-03-23 21:19:54,921 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 21:19:54,924 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 21:19:55,553 - jieba - DEBUG - Loading model cost 0.630 seconds.
+2025-03-23 21:19:55,553 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 21:19:55,553 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 21:19:55,554 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 21:19:55,554 - ArxivCrawler - INFO - OpenAI包版本: 1.12.0
+2025-03-23 21:19:55,554 - ArxivCrawler - INFO - HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:19:55,554 - ArxivCrawler - INFO - HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:19:55,554 - ArxivCrawler - WARNING - 未启用Qwen API或初始化失败，将使用正则表达式提取论文内容
+2025-03-23 21:19:55,554 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 21:19:55,554 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:19:55,554 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 21:19:55,554 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:19:57,507 - arxiv.arxiv - INFO - Got first page; 500 of 500 results available
+2025-03-23 21:19:57,515 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 21:19:57,515 - arxiv.arxiv - INFO - Sleeping for 2.991442 seconds
+2025-03-23 21:19:57,978 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 21:22:23,160 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-23 21:22:23,160 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-23 21:22:23,160 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:22:23,160 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:22:24,203 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-23 21:22:24,203 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 21:22:24,203 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 21:22:24,823 - jieba - DEBUG - Loading model cost 0.620 seconds.
+2025-03-23 21:22:24,824 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 21:22:24,825 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 21:22:24,826 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 21:22:24,826 - ArxivCrawler - INFO - OpenAI包版本: 1.68.2
+2025-03-23 21:22:24,826 - ArxivCrawler - INFO - HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:22:24,826 - ArxivCrawler - INFO - HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:22:24,826 - ArxivCrawler - INFO - 已启用Qwen API进行论文中文总结
+2025-03-23 21:22:25,381 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:22:25,385 - ArxivCrawler - INFO - Qwen API连接测试成功: 你好！有什么我能帮助你的吗？
+2025-03-23 21:22:25,386 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 21:22:25,386 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:22:25,386 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 21:22:25,386 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:22:27,225 - arxiv.arxiv - INFO - Got first page; 500 of 500 results available
+2025-03-23 21:22:27,227 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 21:22:27,227 - arxiv.arxiv - INFO - Sleeping for 2.998760 seconds
+2025-03-23 21:22:30,231 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:22:32,248 - arxiv.arxiv - INFO - Requesting 100 results at offset 200
+2025-03-23 21:22:32,249 - arxiv.arxiv - INFO - Sleeping for 2.996105 seconds
+2025-03-23 21:22:35,246 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:22:37,989 - arxiv.arxiv - INFO - Requesting 100 results at offset 300
+2025-03-23 21:22:37,989 - arxiv.arxiv - INFO - Sleeping for 2.994223 seconds
+2025-03-23 21:22:40,985 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:22:42,463 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:22:45,464 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:22:48,512 - arxiv.arxiv - INFO - Requesting 100 results at offset 400
+2025-03-23 21:22:48,518 - arxiv.arxiv - INFO - Sleeping for 2.994431 seconds
+2025-03-23 21:22:51,513 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:22:53,387 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:22:56,389 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:22:59,220 - ArxivCrawler - INFO - 获取到 500 篇论文，其中最近5天: 500篇，最近1天: 0篇
+2025-03-23 21:22:59,221 - ArxivCrawler - INFO - 最近5天找到500篇相关论文
+2025-03-23 21:22:59,221 - ArxivCrawler - INFO - 最近1天找到0篇相关论文
+2025-03-23 21:23:00,246 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:23:04,504 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:23:04,505 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:23:04,506 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:23:10,456 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:23:10,456 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:23:10,458 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:23:14,223 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:23:14,223 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:23:14,223 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:23:20,518 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:23:20,519 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:23:20,520 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:23:25,384 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:23:25,385 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:23:25,386 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:23:30,460 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:23:30,461 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:23:30,461 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:23:36,111 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:23:36,112 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:23:36,113 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:23:40,215 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:23:40,216 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:23:40,217 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:23:43,599 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:23:43,599 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:23:43,600 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:23:48,169 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:23:48,171 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:23:48,172 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:23:54,349 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:23:54,350 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:23:54,350 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:24:02,893 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:24:02,893 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:24:02,893 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:24:07,951 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:24:07,952 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:24:07,952 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:24:13,448 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:24:13,449 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:24:13,449 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:24:19,991 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:24:19,992 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:24:19,993 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:24:24,760 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:24:24,760 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:24:24,760 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:24:29,059 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:24:29,060 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:24:29,060 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:24:34,165 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:24:34,165 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:24:34,165 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:24:41,352 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:24:41,354 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:24:41,354 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:24:45,553 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:24:45,553 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:24:45,553 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:24:51,809 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:24:51,809 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:24:51,809 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:24:55,033 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:24:55,035 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:24:55,036 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:25:00,502 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:25:00,503 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:25:00,503 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:25:07,138 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:25:07,138 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:25:07,139 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:25:10,165 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:25:10,166 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:25:10,166 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:25:17,339 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:25:17,341 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:25:17,341 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:25:20,830 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:25:20,831 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:25:20,831 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:25:26,822 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:25:26,823 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:25:26,824 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:25:32,015 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:25:32,016 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:25:32,017 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:25:40,222 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:25:40,222 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:25:40,224 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:25:43,768 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:25:43,768 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:25:43,768 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:25:47,238 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:25:47,238 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:25:47,238 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:25:52,740 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:25:52,740 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:25:52,740 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:25:59,687 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:25:59,688 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:25:59,689 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:26:03,969 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:26:03,969 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:26:03,969 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:26:06,803 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:26:06,804 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:26:06,804 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:26:10,375 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:26:10,375 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:26:10,377 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:26:15,213 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:26:15,213 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:26:15,214 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:26:25,096 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:26:25,096 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:26:25,096 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:26:29,744 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:26:29,745 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:26:29,746 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:26:34,024 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:26:34,024 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:26:34,024 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:26:38,271 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:26:38,271 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:26:38,271 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:26:42,287 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:26:42,287 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:26:42,287 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:26:48,013 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:26:48,014 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:26:48,014 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:26:55,074 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:26:55,074 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:26:55,074 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:26:58,636 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:26:58,636 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:26:58,636 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:27:06,776 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:27:06,777 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:27:06,777 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:27:11,382 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:27:11,383 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:27:11,383 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:27:15,672 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:27:15,672 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:27:15,672 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:27:23,220 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:27:23,220 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:27:23,222 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:27:30,225 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:27:30,226 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:27:30,226 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:27:35,811 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:27:35,811 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:27:35,811 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:27:39,670 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 21:30:33,709 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-23 21:30:33,709 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-23 21:30:33,709 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:30:33,709 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:30:34,725 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-23 21:30:34,726 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 21:30:34,727 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 21:30:35,315 - jieba - DEBUG - Loading model cost 0.589 seconds.
+2025-03-23 21:30:35,315 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 21:30:35,315 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 21:30:35,315 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 21:30:35,315 - ArxivCrawler - INFO - OpenAI包版本: 1.68.2
+2025-03-23 21:30:35,315 - ArxivCrawler - INFO - HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:30:35,315 - ArxivCrawler - INFO - HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:30:35,315 - ArxivCrawler - INFO - 已启用Qwen API进行论文中文总结
+2025-03-23 21:30:36,014 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:30:36,015 - ArxivCrawler - INFO - Qwen API连接测试成功: 你好！有什么我能帮助你的吗？
+2025-03-23 21:30:36,015 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 21:30:36,015 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:30:36,015 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 21:30:36,020 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:30:37,879 - arxiv.arxiv - INFO - Got first page; 500 of 500 results available
+2025-03-23 21:30:37,885 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 21:30:37,885 - arxiv.arxiv - INFO - Sleeping for 2.993288 seconds
+2025-03-23 21:30:40,884 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:30:42,915 - arxiv.arxiv - INFO - Requesting 100 results at offset 200
+2025-03-23 21:30:42,916 - arxiv.arxiv - INFO - Sleeping for 2.995997 seconds
+2025-03-23 21:30:45,913 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:30:47,590 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:30:50,591 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:30:51,677 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:30:54,680 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:30:59,138 - arxiv.arxiv - INFO - Requesting 100 results at offset 300
+2025-03-23 21:30:59,138 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:31:02,146 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:31:03,729 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:31:06,730 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:31:09,571 - arxiv.arxiv - INFO - Requesting 100 results at offset 400
+2025-03-23 21:31:09,572 - arxiv.arxiv - INFO - Sleeping for 2.995280 seconds
+2025-03-23 21:31:12,567 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:31:14,279 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:31:17,281 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:31:18,590 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:31:21,592 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:31:23,638 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:31:26,639 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:31:28,181 - ArxivCrawler - ERROR - 搜索API调用出错: Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=all%3A%22large+language+model%22+OR+all%3A%22LLM%22+OR+all%3A%22GPT%22+OR+all%3A%22ChatGPT%22+OR+all%3A%22transformer%22+OR+all%3A%22generative+AI%22+OR+all%3A%22language+model%22+OR+all%3A%22foundation+model%22+OR+all%3A%22Llama%22+OR+all%3A%22Claude%22+OR+all%3A%22Gemini%22+OR+all%3A%22agent%22+OR+all%3A%22multimodal%22+OR+all%3A%22instruction+tuning%22+OR+all%3A%22prompt%22+OR+all%3A%22fine-tuning%22+OR+all%3A%22alignment%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=400&max_results=100)
+2025-03-23 21:31:28,181 - ArxivCrawler - ERROR - 获取论文时发生错误: Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=all%3A%22large+language+model%22+OR+all%3A%22LLM%22+OR+all%3A%22GPT%22+OR+all%3A%22ChatGPT%22+OR+all%3A%22transformer%22+OR+all%3A%22generative+AI%22+OR+all%3A%22language+model%22+OR+all%3A%22foundation+model%22+OR+all%3A%22Llama%22+OR+all%3A%22Claude%22+OR+all%3A%22Gemini%22+OR+all%3A%22agent%22+OR+all%3A%22multimodal%22+OR+all%3A%22instruction+tuning%22+OR+all%3A%22prompt%22+OR+all%3A%22fine-tuning%22+OR+all%3A%22alignment%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=400&max_results=100)
+2025-03-23 21:31:28,181 - ArxivCrawler - INFO - 将在 5 秒后重试...
+2025-03-23 21:31:33,184 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:31:33,184 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 21:31:33,185 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:31:35,565 - arxiv.arxiv - INFO - Got first page; 500 of 500 results available
+2025-03-23 21:31:35,565 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 21:31:35,565 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:31:38,572 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:31:42,305 - arxiv.arxiv - INFO - Requesting 100 results at offset 200
+2025-03-23 21:31:42,305 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:31:45,309 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:31:48,101 - arxiv.arxiv - INFO - Requesting 100 results at offset 300
+2025-03-23 21:31:48,101 - arxiv.arxiv - INFO - Sleeping for 2.993911 seconds
+2025-03-23 21:31:51,097 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:31:52,161 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:31:55,162 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:31:56,992 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:31:59,995 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:32:01,397 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:32:04,400 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:32:05,425 - ArxivCrawler - ERROR - 搜索API调用出错: Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=all%3A%22large+language+model%22+OR+all%3A%22LLM%22+OR+all%3A%22GPT%22+OR+all%3A%22ChatGPT%22+OR+all%3A%22transformer%22+OR+all%3A%22generative+AI%22+OR+all%3A%22language+model%22+OR+all%3A%22foundation+model%22+OR+all%3A%22Llama%22+OR+all%3A%22Claude%22+OR+all%3A%22Gemini%22+OR+all%3A%22agent%22+OR+all%3A%22multimodal%22+OR+all%3A%22instruction+tuning%22+OR+all%3A%22prompt%22+OR+all%3A%22fine-tuning%22+OR+all%3A%22alignment%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=300&max_results=100)
+2025-03-23 21:32:05,425 - ArxivCrawler - ERROR - 获取论文时发生错误: Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=all%3A%22large+language+model%22+OR+all%3A%22LLM%22+OR+all%3A%22GPT%22+OR+all%3A%22ChatGPT%22+OR+all%3A%22transformer%22+OR+all%3A%22generative+AI%22+OR+all%3A%22language+model%22+OR+all%3A%22foundation+model%22+OR+all%3A%22Llama%22+OR+all%3A%22Claude%22+OR+all%3A%22Gemini%22+OR+all%3A%22agent%22+OR+all%3A%22multimodal%22+OR+all%3A%22instruction+tuning%22+OR+all%3A%22prompt%22+OR+all%3A%22fine-tuning%22+OR+all%3A%22alignment%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=300&max_results=100)
+2025-03-23 21:32:05,425 - ArxivCrawler - INFO - 将在 5 秒后重试...
+2025-03-23 21:32:10,428 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:32:10,428 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 21:32:10,428 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:32:12,425 - arxiv.arxiv - INFO - Got first page; 500 of 500 results available
+2025-03-23 21:32:12,431 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 21:32:12,431 - arxiv.arxiv - INFO - Sleeping for 2.993984 seconds
+2025-03-23 21:32:15,426 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:32:16,824 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:32:19,825 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:32:21,105 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:32:24,106 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:32:27,412 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 21:32:30,414 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:32:31,738 - ArxivCrawler - ERROR - 搜索API调用出错: Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=all%3A%22large+language+model%22+OR+all%3A%22LLM%22+OR+all%3A%22GPT%22+OR+all%3A%22ChatGPT%22+OR+all%3A%22transformer%22+OR+all%3A%22generative+AI%22+OR+all%3A%22language+model%22+OR+all%3A%22foundation+model%22+OR+all%3A%22Llama%22+OR+all%3A%22Claude%22+OR+all%3A%22Gemini%22+OR+all%3A%22agent%22+OR+all%3A%22multimodal%22+OR+all%3A%22instruction+tuning%22+OR+all%3A%22prompt%22+OR+all%3A%22fine-tuning%22+OR+all%3A%22alignment%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=100&max_results=100)
+2025-03-23 21:32:31,738 - ArxivCrawler - ERROR - 获取论文时发生错误: Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=all%3A%22large+language+model%22+OR+all%3A%22LLM%22+OR+all%3A%22GPT%22+OR+all%3A%22ChatGPT%22+OR+all%3A%22transformer%22+OR+all%3A%22generative+AI%22+OR+all%3A%22language+model%22+OR+all%3A%22foundation+model%22+OR+all%3A%22Llama%22+OR+all%3A%22Claude%22+OR+all%3A%22Gemini%22+OR+all%3A%22agent%22+OR+all%3A%22multimodal%22+OR+all%3A%22instruction+tuning%22+OR+all%3A%22prompt%22+OR+all%3A%22fine-tuning%22+OR+all%3A%22alignment%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=100&max_results=100)
+2025-03-23 21:32:31,738 - ArxivCrawler - ERROR - 达到最大重试次数，获取论文失败
+2025-03-23 21:32:31,738 - ArxivCrawler - ERROR - 程序执行过程中发生错误: Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=all%3A%22large+language+model%22+OR+all%3A%22LLM%22+OR+all%3A%22GPT%22+OR+all%3A%22ChatGPT%22+OR+all%3A%22transformer%22+OR+all%3A%22generative+AI%22+OR+all%3A%22language+model%22+OR+all%3A%22foundation+model%22+OR+all%3A%22Llama%22+OR+all%3A%22Claude%22+OR+all%3A%22Gemini%22+OR+all%3A%22agent%22+OR+all%3A%22multimodal%22+OR+all%3A%22instruction+tuning%22+OR+all%3A%22prompt%22+OR+all%3A%22fine-tuning%22+OR+all%3A%22alignment%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=100&max_results=100)
+2025-03-23 21:32:31,738 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 21:35:12,114 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-23 21:35:12,114 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-23 21:35:12,114 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:35:12,114 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:35:13,262 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-23 21:35:13,262 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 21:35:13,264 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 21:35:13,914 - jieba - DEBUG - Loading model cost 0.652 seconds.
+2025-03-23 21:35:13,914 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 21:35:13,914 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 21:35:13,914 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 21:35:13,914 - ArxivCrawler - INFO - OpenAI包版本: 1.68.2
+2025-03-23 21:35:13,914 - ArxivCrawler - INFO - HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:35:13,914 - ArxivCrawler - INFO - HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:35:13,914 - ArxivCrawler - INFO - 已启用Qwen API进行论文中文总结
+2025-03-23 21:35:14,428 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:35:14,428 - ArxivCrawler - INFO - Qwen API连接测试成功: 你好！有什么可以帮助你的吗？
+2025-03-23 21:35:14,428 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 21:35:14,428 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:35:14,428 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 21:35:14,434 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:35:16,354 - arxiv.arxiv - INFO - Got first page; 100 of 100 results available
+2025-03-23 21:35:16,368 - ArxivCrawler - INFO - 获取到 100 篇论文，其中最近5天: 100篇，最近1天: 0篇
+2025-03-23 21:35:16,368 - ArxivCrawler - INFO - 最近5天找到100篇相关论文
+2025-03-23 21:35:16,368 - ArxivCrawler - INFO - 最近1天找到0篇相关论文
+2025-03-23 21:35:16,554 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:35:20,115 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:35:20,115 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:35:20,115 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:35:27,300 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:35:27,300 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:35:27,300 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:35:31,019 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:35:31,020 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:35:31,020 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:35:37,049 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:35:37,049 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:35:37,049 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:35:41,808 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:35:41,808 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:35:41,808 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:35:48,330 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:35:48,331 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:35:48,331 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:35:55,040 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:35:55,040 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:35:55,042 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:36:00,871 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:36:00,872 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:36:00,872 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:36:06,170 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:36:06,171 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:36:06,172 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:36:11,178 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:36:11,179 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:36:11,179 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:36:14,380 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:36:14,380 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:36:14,380 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:36:19,016 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:36:19,017 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:36:19,018 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:36:23,447 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:36:23,447 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:36:23,447 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:36:27,386 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:36:27,386 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:36:27,386 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:36:31,623 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:36:31,624 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:36:31,625 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:36:37,917 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:36:37,917 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:36:37,917 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:36:44,471 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:36:44,471 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:36:44,472 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:36:52,602 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:36:52,604 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:36:52,605 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:36:59,250 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:36:59,250 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:36:59,250 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:37:03,288 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:37:03,294 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:37:03,294 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:37:08,062 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:37:08,062 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:37:08,064 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:37:10,928 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:37:10,928 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:37:10,928 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:37:18,057 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:37:18,057 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:37:18,057 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:37:21,954 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:37:21,954 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:37:21,954 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:37:24,982 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:37:24,983 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:37:24,984 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:37:32,531 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:37:32,531 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:37:32,531 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:37:40,702 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:37:40,703 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:37:40,703 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:37:45,213 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:37:45,213 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:37:45,213 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:37:49,694 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:37:49,694 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:37:49,694 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:37:57,363 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:37:57,364 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:37:57,364 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:38:00,711 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:38:00,711 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:38:00,713 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:38:03,786 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:38:03,787 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:38:03,788 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:38:11,109 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:38:11,110 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:38:11,113 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:38:16,743 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:38:16,744 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:38:16,744 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:38:24,130 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:38:24,131 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:38:24,131 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:38:29,722 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:38:29,723 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:38:29,723 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:38:35,942 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:38:35,943 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:38:35,943 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:38:44,940 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:38:44,940 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:38:44,940 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:38:52,060 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:38:52,060 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:38:52,060 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:38:55,492 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:38:55,493 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:38:55,493 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:39:02,532 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:39:02,532 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:39:02,533 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:39:08,813 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:39:08,813 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:39:08,813 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:39:14,968 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:39:14,968 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:39:14,968 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:39:25,504 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:39:25,504 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:39:25,504 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:39:29,266 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:39:29,266 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:39:29,266 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:39:32,118 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:39:32,118 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:39:32,118 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:39:37,777 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:39:37,777 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:39:37,777 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:39:41,902 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:39:41,903 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:39:41,903 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:39:45,287 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:39:45,287 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:39:45,289 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:39:48,330 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:39:48,330 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:39:48,330 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:39:52,303 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:39:52,303 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:39:52,303 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:39:55,330 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:39:55,330 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:39:55,330 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:39:59,104 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:39:59,104 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:39:59,104 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:40:02,963 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:40:02,963 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:40:02,963 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:40:09,474 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:40:09,474 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:40:09,475 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:40:15,189 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:40:15,191 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:40:15,193 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:40:19,672 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:40:19,673 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:40:19,673 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:40:25,498 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:40:25,499 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:40:25,499 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:40:29,555 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:40:29,557 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:40:29,557 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:40:33,084 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:40:33,086 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:40:33,086 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:40:36,360 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:40:36,360 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:40:36,360 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:40:42,059 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:40:42,059 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:40:42,059 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:40:47,317 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:40:47,317 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:40:47,317 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:40:52,599 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:40:52,599 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:40:52,599 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:40:56,457 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:40:56,457 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:40:56,457 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:41:03,427 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:41:03,428 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:41:03,428 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:41:10,280 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:41:10,281 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:41:10,281 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:41:16,230 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:41:16,230 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:41:16,233 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:41:20,138 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:41:20,138 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:41:20,138 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:41:22,950 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:41:22,950 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:41:22,950 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:41:26,629 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:41:26,629 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:41:26,629 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:41:30,218 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:41:30,219 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:41:30,219 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:41:34,289 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:41:34,289 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:41:34,289 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:41:39,840 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:41:39,840 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:41:39,840 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:41:44,512 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:41:44,514 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:41:44,514 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:41:49,460 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:41:49,460 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:41:49,462 - ArxivCrawler - WARNING - 没有论文可供分析
+2025-03-23 21:41:49,462 - ArxivCrawler - INFO - 开始下载热点论文PDF...
+2025-03-23 21:41:49,462 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16094v1
+2025-03-23 21:41:49,462 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16334v1
+2025-03-23 21:41:49,468 - ArxivCrawler - INFO - 正在下载论文: 2503.16419v1
+2025-03-23 21:41:49,468 - ArxivCrawler - INFO - 正在下载论文: 2503.16413v1
+2025-03-23 21:41:49,468 - ArxivCrawler - INFO - 正在下载论文: 2503.16260v1
+2025-03-23 21:41:49,469 - ArxivCrawler - INFO - 正在下载论文: 2503.16212v1
+2025-03-23 21:41:49,469 - ArxivCrawler - INFO - 正在下载论文: 2503.16188v1
+2025-03-23 21:41:50,492 - ArxivCrawler - INFO - 论文下载完成: 2503.16212v1
+2025-03-23 21:41:50,492 - ArxivCrawler - INFO - 正在下载论文: 2503.16161v1
+2025-03-23 21:41:50,820 - ArxivCrawler - INFO - 论文下载完成: 2503.16260v1
+2025-03-23 21:41:50,820 - ArxivCrawler - INFO - 正在下载论文: 2503.16148v1
+2025-03-23 21:41:50,869 - ArxivCrawler - INFO - 论文下载完成: 2503.16419v1
+2025-03-23 21:41:50,870 - ArxivCrawler - INFO - 正在下载论文: 2503.16144v1
+2025-03-23 21:41:51,793 - ArxivCrawler - INFO - 论文下载完成: 2503.16161v1
+2025-03-23 21:41:52,376 - ArxivCrawler - INFO - 论文下载完成: 2503.16188v1
+2025-03-23 21:41:52,959 - ArxivCrawler - INFO - 论文下载完成: 2503.16148v1
+2025-03-23 21:41:53,175 - ArxivCrawler - INFO - 论文下载完成: 2503.16144v1
+2025-03-23 21:41:57,166 - ArxivCrawler - INFO - 论文下载完成: 2503.16413v1
+2025-03-23 21:41:57,166 - ArxivCrawler - INFO - 成功下载 10 篇热点论文PDF
+2025-03-23 21:41:57,166 - ArxivCrawler - WARNING - 没有论文可供分析
+2025-03-23 21:41:57,352 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:42:01,575 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:42:01,575 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:42:01,575 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:42:05,689 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:42:05,691 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:42:05,691 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:42:11,597 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:42:11,598 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:42:11,599 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:42:17,224 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:42:17,225 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:42:17,225 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:42:25,510 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:42:25,511 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:42:25,511 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:42:31,259 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:42:31,260 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:42:31,260 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:42:36,117 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:42:36,117 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:42:36,118 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:42:42,940 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:42:42,940 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:42:42,941 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:42:48,251 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:42:48,252 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:42:48,252 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:42:54,506 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:42:54,506 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:42:54,506 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:42:57,844 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:42:57,844 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:42:57,844 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:43:04,750 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:43:04,750 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:43:04,750 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:43:09,574 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:43:09,574 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:43:09,574 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:43:14,747 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:43:14,750 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:43:14,750 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:43:20,601 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:43:20,602 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:43:20,602 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:43:25,881 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:43:25,882 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:43:25,882 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:43:29,477 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:43:29,477 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:43:29,477 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:43:35,658 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:43:35,658 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:43:35,658 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:43:42,358 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:43:42,359 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:43:42,360 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:43:49,847 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:43:49,847 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:43:49,849 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:43:53,009 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:43:53,009 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:43:53,014 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:43:58,185 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:43:58,185 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:43:58,185 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:44:02,702 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:44:02,702 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:44:02,704 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:44:09,901 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:44:09,901 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:44:09,902 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:44:14,463 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:44:14,463 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:44:14,463 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:44:19,336 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:44:19,336 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:44:19,336 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:44:25,289 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:44:25,289 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:44:25,289 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:44:32,287 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:44:32,289 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:44:32,289 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:44:37,646 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:44:37,646 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:44:37,646 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:44:42,583 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:44:42,583 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:44:42,586 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:44:45,604 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:44:45,604 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:44:45,604 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:44:51,453 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:44:51,453 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:44:51,454 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:45:00,750 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:45:00,750 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:45:00,752 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:45:05,797 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:45:05,797 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:45:05,798 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:45:13,085 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:45:13,086 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:45:13,086 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:45:17,120 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:45:17,120 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:45:17,120 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:45:21,276 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:45:21,277 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:45:21,278 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:45:29,794 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 21:45:44,039 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-23 21:45:44,043 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-23 21:45:44,043 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:45:44,043 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:45:44,563 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-23 21:45:44,564 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-23 21:45:44,564 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:45:44,564 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:45:45,426 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-23 21:45:45,428 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 21:45:45,430 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 21:45:45,905 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-23 21:45:45,906 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 21:45:45,908 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 21:45:46,012 - jieba - DEBUG - Loading model cost 0.584 seconds.
+2025-03-23 21:45:46,013 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 21:45:46,013 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 21:45:46,015 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 21:45:46,015 - ArxivCrawler - INFO - OpenAI包版本: 1.68.2
+2025-03-23 21:45:46,015 - ArxivCrawler - INFO - HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:45:46,015 - ArxivCrawler - INFO - HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:45:46,015 - ArxivCrawler - INFO - 已启用Qwen API进行论文中文总结
+2025-03-23 21:45:46,529 - jieba - DEBUG - Loading model cost 0.623 seconds.
+2025-03-23 21:45:46,530 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 21:45:46,531 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 21:45:46,532 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 21:45:46,532 - ArxivCrawler - INFO - OpenAI包版本: 1.68.2
+2025-03-23 21:45:46,532 - ArxivCrawler - INFO - HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:45:46,532 - ArxivCrawler - INFO - HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:45:46,532 - ArxivCrawler - INFO - 已启用Qwen API进行论文中文总结
+2025-03-23 21:45:46,532 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:45:46,548 - ArxivCrawler - INFO - Qwen API连接测试成功: 你好！有什么可以帮助你的吗？
+2025-03-23 21:45:46,548 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 21:45:46,549 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:45:46,549 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 21:45:46,550 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:45:47,318 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:45:47,329 - ArxivCrawler - INFO - Qwen API连接测试成功: 你好！有什么可以帮助你的吗？
+2025-03-23 21:45:47,330 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 21:45:47,330 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:45:47,330 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 21:45:47,331 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:45:49,638 - arxiv.arxiv - INFO - Got first page; 100 of 100 results available
+2025-03-23 21:45:49,651 - ArxivCrawler - INFO - 获取到 100 篇论文，其中最近5天: 100篇，最近1天: 0篇
+2025-03-23 21:45:49,652 - ArxivCrawler - INFO - 最近5天找到100篇相关论文
+2025-03-23 21:45:49,652 - ArxivCrawler - INFO - 最近1天找到0篇相关论文
+2025-03-23 21:45:50,848 - arxiv.arxiv - INFO - Got first page; 100 of 100 results available
+2025-03-23 21:45:50,859 - ArxivCrawler - INFO - 获取到 100 篇论文，其中最近5天: 100篇，最近1天: 0篇
+2025-03-23 21:45:50,859 - ArxivCrawler - INFO - 最近5天找到100篇相关论文
+2025-03-23 21:45:50,863 - ArxivCrawler - INFO - 最近1天找到0篇相关论文
+2025-03-23 21:46:40,558 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-23 21:46:40,558 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-23 21:46:40,558 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:46:40,558 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:46:41,698 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-23 21:46:41,698 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 21:46:41,698 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 21:46:42,328 - jieba - DEBUG - Loading model cost 0.630 seconds.
+2025-03-23 21:46:42,328 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 21:46:42,337 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 21:46:42,337 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 21:46:42,338 - ArxivCrawler - INFO - OpenAI包版本: 1.68.2
+2025-03-23 21:46:42,338 - ArxivCrawler - INFO - HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:46:42,338 - ArxivCrawler - INFO - HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:46:42,338 - ArxivCrawler - INFO - 已启用Qwen API进行论文中文总结
+2025-03-23 21:46:42,899 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:46:42,903 - ArxivCrawler - INFO - Qwen API连接测试成功: 你好！有什么我能为你做的吗？
+2025-03-23 21:46:42,903 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 21:46:42,903 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:46:42,903 - arxiv.arxiv - INFO - Requesting 10 results at offset 0
+2025-03-23 21:46:42,903 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:46:44,128 - arxiv.arxiv - INFO - Got first page; 10 of 10 results available
+2025-03-23 21:46:44,128 - ArxivCrawler - INFO - 获取到 10 篇论文，其中最近5天: 10篇，最近1天: 0篇
+2025-03-23 21:46:44,128 - ArxivCrawler - INFO - 最近5天找到10篇相关论文
+2025-03-23 21:46:44,128 - ArxivCrawler - INFO - 最近1天找到0篇相关论文
+2025-03-23 21:46:44,158 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:46:48,709 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:46:48,709 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:46:48,709 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:46:53,949 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:46:53,949 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:46:53,949 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:46:57,967 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:46:57,968 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:46:57,968 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:47:03,663 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:47:03,663 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:47:03,663 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:47:08,197 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:47:08,198 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:47:08,198 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:47:12,485 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:47:12,485 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:47:12,485 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:47:19,253 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:47:19,254 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:47:19,254 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:47:25,635 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:47:25,636 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:47:25,636 - ArxivCrawler - WARNING - 没有论文可供分析
+2025-03-23 21:47:25,638 - ArxivCrawler - INFO - 开始下载热点论文PDF...
+2025-03-23 21:47:25,638 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16419v1
+2025-03-23 21:47:25,638 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16413v1
+2025-03-23 21:47:25,638 - ArxivCrawler - INFO - 正在下载论文: 2503.16418v1
+2025-03-23 21:47:25,638 - ArxivCrawler - INFO - 正在下载论文: 2503.16423v1
+2025-03-23 21:47:25,638 - ArxivCrawler - INFO - 正在下载论文: 2503.16416v1
+2025-03-23 21:47:25,638 - ArxivCrawler - INFO - 正在下载论文: 2503.16428v1
+2025-03-23 21:47:25,638 - ArxivCrawler - INFO - 正在下载论文: 2503.16426v1
+2025-03-23 21:47:26,375 - ArxivCrawler - INFO - 论文下载完成: 2503.16416v1
+2025-03-23 21:47:26,376 - ArxivCrawler - INFO - 正在下载论文: 2503.16414v1
+2025-03-23 21:47:27,566 - ArxivCrawler - INFO - 论文下载完成: 2503.16428v1
+2025-03-23 21:47:27,786 - ArxivCrawler - INFO - 论文下载完成: 2503.16423v1
+2025-03-23 21:47:27,998 - ArxivCrawler - INFO - 论文下载完成: 2503.16414v1
+2025-03-23 21:47:29,430 - ArxivCrawler - INFO - 论文下载完成: 2503.16418v1
+2025-03-23 21:47:30,989 - ArxivCrawler - INFO - 论文下载完成: 2503.16426v1
+2025-03-23 21:47:30,989 - ArxivCrawler - INFO - 成功下载 8 篇热点论文PDF
+2025-03-23 21:47:30,989 - ArxivCrawler - WARNING - 没有论文可供分析
+2025-03-23 21:47:31,013 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:47:36,403 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:47:36,404 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:47:36,404 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:47:43,510 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:47:43,511 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:47:43,512 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:47:47,587 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:47:47,587 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:47:47,588 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:47:52,857 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:47:52,858 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:47:52,858 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:47:57,728 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:47:57,728 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:47:57,728 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:48:01,445 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:48:01,445 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:48:01,445 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:48:05,505 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:48:05,506 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:48:05,506 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:48:10,661 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:48:10,661 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:48:10,681 - ArxivCrawler - INFO - 报告已生成: arxiv_reports\LLM研究热点报告_2025年03月23日.md
+2025-03-23 21:48:10,700 - ArxivCrawler - INFO - 类别分布图已生成
+2025-03-23 21:48:10,703 - ArxivCrawler - INFO - 关键词词云图已生成
+2025-03-23 21:48:10,703 - ArxivCrawler - INFO - 论文分析完成，报告已保存至: arxiv_reports\LLM研究热点报告_2025年03月23日.md
+2025-03-23 21:48:10,704 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 21:48:13,341 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-23 21:48:13,341 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-23 21:48:13,341 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:48:13,341 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:48:14,427 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-23 21:48:14,427 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 21:48:14,427 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 21:48:15,020 - jieba - DEBUG - Loading model cost 0.593 seconds.
+2025-03-23 21:48:15,028 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 21:48:15,029 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 21:48:15,029 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 21:48:15,029 - ArxivCrawler - INFO - OpenAI包版本: 1.68.2
+2025-03-23 21:48:15,029 - ArxivCrawler - INFO - HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:48:15,029 - ArxivCrawler - INFO - HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:48:15,029 - ArxivCrawler - INFO - 已启用Qwen API进行论文中文总结
+2025-03-23 21:48:15,647 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:48:15,650 - ArxivCrawler - INFO - Qwen API连接测试成功: 你好！有什么我能帮助你的吗？
+2025-03-23 21:48:15,650 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 21:48:15,650 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:48:15,650 - arxiv.arxiv - INFO - Requesting 10 results at offset 0
+2025-03-23 21:48:15,650 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:48:19,178 - arxiv.arxiv - INFO - Got first page; 10 of 10 results available
+2025-03-23 21:48:19,183 - ArxivCrawler - INFO - 获取到 10 篇论文，其中最近5天: 10篇，最近1天: 0篇
+2025-03-23 21:48:19,183 - ArxivCrawler - INFO - 最近5天找到10篇相关论文
+2025-03-23 21:48:19,183 - ArxivCrawler - INFO - 最近1天找到0篇相关论文
+2025-03-23 21:48:19,204 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:48:23,285 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:48:23,285 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:48:23,288 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:48:27,522 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:48:27,522 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:48:27,522 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:48:34,405 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:48:34,407 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:48:34,407 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:48:40,464 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:48:40,464 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:48:40,464 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:48:47,451 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:48:47,451 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:48:47,451 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:48:51,292 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:48:51,292 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:48:51,292 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:48:56,254 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:48:56,254 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:48:56,254 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:49:01,865 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:49:01,865 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:49:01,865 - ArxivCrawler - WARNING - 没有论文可供分析
+2025-03-23 21:49:01,867 - ArxivCrawler - INFO - 开始下载热点论文PDF...
+2025-03-23 21:49:01,867 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16419v1
+2025-03-23 21:49:01,867 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16418v1
+2025-03-23 21:49:01,867 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16413v1
+2025-03-23 21:49:01,867 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16416v1
+2025-03-23 21:49:01,867 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16423v1
+2025-03-23 21:49:01,867 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16426v1
+2025-03-23 21:49:01,867 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16428v1
+2025-03-23 21:49:01,867 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16414v1
+2025-03-23 21:49:01,872 - ArxivCrawler - INFO - 成功下载 8 篇热点论文PDF
+2025-03-23 21:49:01,872 - ArxivCrawler - WARNING - 没有论文可供分析
+2025-03-23 21:49:01,891 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:49:07,778 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:49:07,779 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:49:07,779 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:49:11,991 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 21:52:29,122 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-23 21:52:29,122 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-23 21:52:29,126 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:52:29,126 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:52:30,176 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-23 21:52:30,176 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 21:52:30,176 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 21:52:30,716 - jieba - DEBUG - Loading model cost 0.540 seconds.
+2025-03-23 21:52:30,716 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 21:52:30,721 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 21:52:30,721 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 21:52:30,721 - ArxivCrawler - INFO - OpenAI包版本: 1.68.2
+2025-03-23 21:52:30,722 - ArxivCrawler - INFO - HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:52:30,722 - ArxivCrawler - INFO - HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:52:30,722 - ArxivCrawler - INFO - 已启用Qwen API进行论文中文总结
+2025-03-23 21:52:31,193 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:52:31,196 - ArxivCrawler - INFO - Qwen API连接测试成功: 你好！有什么可以帮助你的吗？
+2025-03-23 21:52:31,196 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 21:52:31,196 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:52:31,196 - arxiv.arxiv - INFO - Requesting 10 results at offset 0
+2025-03-23 21:52:31,196 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:52:33,373 - arxiv.arxiv - INFO - Got first page; 10 of 10 results available
+2025-03-23 21:52:33,373 - ArxivCrawler - INFO - 获取到 10 篇论文，其中最近5天: 10篇，最近1天: 0篇
+2025-03-23 21:52:33,373 - ArxivCrawler - INFO - 最近5天找到10篇相关论文
+2025-03-23 21:52:33,373 - ArxivCrawler - INFO - 最近1天找到0篇相关论文
+2025-03-23 21:52:33,397 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:52:39,479 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:52:39,479 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:52:39,479 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:52:42,274 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:52:42,274 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:52:42,274 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:52:49,282 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:52:49,282 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:52:49,282 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:52:55,807 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:52:55,807 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:52:55,810 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:53:03,591 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:53:03,593 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:53:03,593 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:53:07,355 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:53:07,356 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:53:07,356 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:53:14,506 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:53:14,506 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:53:14,507 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:53:21,941 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:53:21,942 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:53:21,942 - ArxivCrawler - WARNING - 没有论文可供分析
+2025-03-23 21:53:21,942 - ArxivCrawler - INFO - 开始下载热点论文PDF...
+2025-03-23 21:53:21,942 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16419v1
+2025-03-23 21:53:21,946 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16413v1
+2025-03-23 21:53:21,947 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16418v1
+2025-03-23 21:53:21,947 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16428v1
+2025-03-23 21:53:21,947 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16416v1
+2025-03-23 21:53:21,947 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16423v1
+2025-03-23 21:53:21,948 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16426v1
+2025-03-23 21:53:21,948 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16414v1
+2025-03-23 21:53:21,949 - ArxivCrawler - INFO - 成功下载 8 篇热点论文PDF
+2025-03-23 21:53:21,949 - ArxivCrawler - WARNING - 没有论文可供分析
+2025-03-23 21:53:21,970 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:53:25,883 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:53:25,884 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:53:25,884 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:53:32,740 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:53:32,740 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:53:32,740 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:53:37,008 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:53:37,009 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:53:37,010 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:53:41,050 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:53:41,051 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:53:41,051 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:53:48,541 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:53:48,541 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:53:48,541 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:53:51,586 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:53:51,586 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:53:51,586 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:53:58,547 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:53:58,548 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:53:58,548 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:54:05,333 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:54:05,333 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:54:05,352 - ArxivCrawler - INFO - 报告已生成: arxiv_reports\LLM研究热点报告_2025年03月23日.md
+2025-03-23 21:54:05,370 - ArxivCrawler - INFO - 类别分布图已生成
+2025-03-23 21:54:05,370 - ArxivCrawler - INFO - 关键词词云图已生成
+2025-03-23 21:54:05,370 - ArxivCrawler - INFO - 论文分析完成，报告已保存至: arxiv_reports\LLM研究热点报告_2025年03月23日.md
+2025-03-23 21:54:05,370 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 21:57:36,326 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-23 21:57:36,326 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-23 21:57:36,326 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:57:36,326 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:57:37,382 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-23 21:57:37,383 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 21:57:37,385 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 21:57:37,970 - jieba - DEBUG - Loading model cost 0.587 seconds.
+2025-03-23 21:57:37,975 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 21:57:37,975 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 21:57:37,975 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 21:57:37,975 - ArxivCrawler - INFO - OpenAI包版本: 1.68.2
+2025-03-23 21:57:37,975 - ArxivCrawler - INFO - HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:57:37,975 - ArxivCrawler - INFO - HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 21:57:37,975 - ArxivCrawler - INFO - 已启用Qwen API进行论文中文总结
+2025-03-23 21:57:38,472 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:57:38,476 - ArxivCrawler - INFO - Qwen API连接测试成功: 你好！有什么我能帮助你的吗？
+2025-03-23 21:57:38,476 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近一天起始: 2025-03-22, 最近五天起始: 2025-03-18
+2025-03-23 21:57:38,476 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 21:57:38,477 - arxiv.arxiv - INFO - Requesting 10 results at offset 0
+2025-03-23 21:57:38,477 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 21:57:41,095 - arxiv.arxiv - INFO - Got first page; 10 of 10 results available
+2025-03-23 21:57:41,095 - ArxivCrawler - INFO - 获取到 10 篇论文，其中最近5天: 10篇，最近1天: 0篇
+2025-03-23 21:57:41,095 - ArxivCrawler - INFO - 最近5天找到10篇相关论文
+2025-03-23 21:57:41,095 - ArxivCrawler - INFO - 最近1天找到0篇相关论文
+2025-03-23 21:57:41,122 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:57:46,921 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:57:46,921 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:57:46,921 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 21:57:53,130 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:57:53,131 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:57:53,131 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 21:57:57,510 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:57:57,510 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:57:57,510 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:58:05,020 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:58:05,020 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:58:05,020 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 21:58:09,733 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:58:09,734 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:58:09,734 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 21:58:15,907 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:58:15,907 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:58:15,907 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:58:19,417 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:58:19,417 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:58:19,417 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 21:58:26,073 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:58:26,073 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:58:26,073 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 21:58:32,530 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:58:32,530 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:58:32,530 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:58:38,103 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:58:38,103 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:58:38,103 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 21:58:43,266 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:58:43,266 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:58:43,266 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 21:58:48,855 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:58:48,855 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:58:48,855 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:58:53,005 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:58:53,006 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:58:53,006 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 21:58:56,144 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:58:56,146 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:58:56,146 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 21:58:59,711 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:58:59,711 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:58:59,711 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:59:04,635 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:59:04,636 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:59:04,636 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 21:59:09,427 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:59:09,427 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:59:09,427 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 21:59:15,420 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:59:15,421 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:59:15,421 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:59:22,178 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:59:22,180 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:59:22,180 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 21:59:28,154 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:59:28,154 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:59:28,154 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 21:59:31,854 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:59:31,854 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:59:31,854 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:59:36,802 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:59:36,803 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:59:36,803 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 21:59:41,121 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:59:41,122 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:59:41,122 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 21:59:45,236 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:59:45,236 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:59:45,236 - ArxivCrawler - WARNING - 没有论文可供分析
+2025-03-23 21:59:45,236 - ArxivCrawler - INFO - 开始下载热点论文PDF...
+2025-03-23 21:59:45,236 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16419v1
+2025-03-23 21:59:45,236 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16413v1
+2025-03-23 21:59:45,236 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16418v1
+2025-03-23 21:59:45,236 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16423v1
+2025-03-23 21:59:45,236 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16416v1
+2025-03-23 21:59:45,236 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16428v1
+2025-03-23 21:59:45,236 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16426v1
+2025-03-23 21:59:45,243 - ArxivCrawler - INFO - PDF已存在，跳过下载: 2503.16414v1
+2025-03-23 21:59:45,243 - ArxivCrawler - INFO - 成功下载 8 篇热点论文PDF
+2025-03-23 21:59:45,243 - ArxivCrawler - WARNING - 没有论文可供分析
+2025-03-23 21:59:45,266 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 21:59:49,395 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:59:49,395 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:59:49,395 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 21:59:52,667 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:59:52,667 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:59:52,667 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 21:59:58,462 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 21:59:58,464 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 21:59:58,464 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:00:05,863 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:00:05,864 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:00:05,864 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:00:09,911 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:00:09,911 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:00:09,911 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:00:14,352 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:00:14,352 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:00:14,354 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:00:21,190 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:00:21,190 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:00:21,190 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:00:24,977 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:00:24,977 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:00:24,977 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:00:32,158 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:00:32,158 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:00:32,158 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:00:38,508 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:00:38,509 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:00:38,509 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:00:44,183 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:00:44,184 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:00:44,184 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:00:47,934 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:00:47,934 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:00:47,934 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:00:53,256 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:00:53,256 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:00:53,256 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:00:58,267 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:00:58,267 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:00:58,267 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:01:04,725 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:01:04,725 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:01:04,725 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:01:10,485 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:01:10,485 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:01:10,485 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:01:17,012 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:01:17,012 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:01:17,014 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:01:22,040 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:01:22,040 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:01:22,040 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:01:24,885 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:01:24,885 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:01:24,885 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:01:30,199 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:01:30,200 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:01:30,200 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:01:33,594 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:01:33,594 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:01:33,594 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:01:40,330 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:01:40,330 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:01:40,330 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:01:42,233 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:01:42,234 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:01:42,234 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:01:46,910 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:01:46,911 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:01:46,931 - ArxivCrawler - INFO - 报告已生成: arxiv_reports\LLM研究热点报告_2025年03月23日.md
+2025-03-23 22:01:46,950 - ArxivCrawler - INFO - 类别分布图已生成
+2025-03-23 22:01:46,952 - ArxivCrawler - INFO - 关键词词云图已生成
+2025-03-23 22:01:46,953 - ArxivCrawler - INFO - 论文分析完成，报告已保存至: arxiv_reports\LLM研究热点报告_2025年03月23日.md
+2025-03-23 22:01:46,953 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 22:21:10,202 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-23 22:21:10,202 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-23 22:21:10,202 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 22:21:10,202 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 22:21:11,409 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-23 22:21:11,409 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 22:21:11,414 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 22:21:12,059 - jieba - DEBUG - Loading model cost 0.650 seconds.
+2025-03-23 22:21:12,059 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 22:21:12,059 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 22:21:12,059 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 22:21:12,059 - ArxivCrawler - INFO - OpenAI包版本: 1.68.2
+2025-03-23 22:21:12,059 - ArxivCrawler - INFO - HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 22:21:12,059 - ArxivCrawler - INFO - HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 22:21:12,059 - ArxivCrawler - INFO - 已启用Qwen API进行论文中文总结
+2025-03-23 22:21:12,816 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:21:12,822 - ArxivCrawler - INFO - Qwen API连接测试成功: 你好！有什么可以帮助你的吗？
+2025-03-23 22:21:12,822 - ArxivCrawler - INFO - 设置日期范围 - 今天: 2025-03-23, 最近五天起始: 2025-03-16
+2025-03-23 22:21:12,822 - ArxivCrawler - INFO - 正在从Arxiv获取论文...
+2025-03-23 22:21:12,822 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 22:21:12,822 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 22:21:15,199 - arxiv.arxiv - INFO - Got first page; 100 of 100 results available
+2025-03-23 22:21:15,205 - ArxivCrawler - INFO - 日期 2025-03-20 找到 100 篇论文
+2025-03-23 22:21:15,205 - ArxivCrawler - INFO - 获取到 100 篇论文，其中最近5天: 100篇
+2025-03-23 22:21:15,205 - ArxivCrawler - INFO - 最近几天找到100篇相关论文
+2025-03-23 22:21:15,206 - ArxivCrawler - INFO - 分析 2025-03-20 日期的论文...
+2025-03-23 22:21:15,399 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:21:20,937 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:21:20,937 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:21:20,939 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:21:26,712 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:21:26,713 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:21:26,713 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:21:30,589 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:21:30,589 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:21:30,589 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:21:34,622 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:21:34,623 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:21:34,623 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:21:38,471 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:21:38,471 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:21:38,471 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:21:45,073 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:21:45,073 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:21:45,073 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:21:49,456 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:21:49,456 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:21:49,456 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:21:54,781 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:21:54,781 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:21:54,781 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:22:01,693 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:22:01,693 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:22:01,695 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:22:05,875 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:22:05,875 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:22:05,876 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:22:10,634 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:22:10,634 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:22:10,634 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:22:14,814 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:22:14,814 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:22:14,814 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:22:22,555 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:22:22,556 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:22:22,556 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:22:28,818 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:22:28,819 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:22:28,819 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:22:33,625 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:22:33,625 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:22:33,626 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:22:39,932 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:22:39,933 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:22:39,933 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:22:44,812 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:22:44,814 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:22:44,814 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:22:47,683 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:22:47,684 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:22:47,685 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:22:52,259 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:22:52,259 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:22:52,259 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:22:57,059 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:22:57,060 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:22:57,061 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:23:03,285 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:23:03,288 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:23:03,289 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:23:07,674 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:23:07,675 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:23:07,676 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:23:09,884 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:23:09,885 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:23:09,885 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:23:17,029 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:23:17,030 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:23:17,030 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:23:20,495 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:23:20,497 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:23:20,497 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:23:24,119 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:23:24,120 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:23:24,121 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:23:28,833 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:23:28,835 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:23:28,835 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:23:32,572 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:23:32,573 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:23:32,573 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:23:39,870 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:23:39,870 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:23:39,870 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:23:44,036 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:23:44,037 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:23:44,038 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:23:50,232 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:23:50,232 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:23:50,232 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:23:53,753 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:23:53,755 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:23:53,755 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:23:57,281 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:23:57,281 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:23:57,283 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:24:02,621 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:24:02,621 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:24:02,621 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:24:10,702 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:24:10,702 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:24:10,702 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:24:15,801 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:24:15,802 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:24:15,802 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:24:19,802 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:24:19,803 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:24:19,803 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:24:23,435 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:24:23,436 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:24:23,436 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:24:27,551 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:24:27,551 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:24:27,551 - ArxivCrawler - INFO - 正在使用Qwen API进行'contributions'类型的中文总结
+2025-03-23 22:24:30,382 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:24:30,383 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:24:30,383 - ArxivCrawler - INFO - 正在使用Qwen API进行'problems'类型的中文总结
+2025-03-23 22:24:35,614 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 22:24:35,615 - ArxivCrawler - INFO - 成功获取中文总结，共3条
+2025-03-23 22:24:35,615 - ArxivCrawler - INFO - 正在使用Qwen API进行'innovations'类型的中文总结
+2025-03-23 22:24:41,188 - ArxivCrawler - INFO - ArxivCrawler 运行结束
+2025-03-23 22:30:40,979 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-23 22:30:40,979 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-23 22:30:40,979 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 22:30:40,979 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 22:30:42,240 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-23 22:30:42,241 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 22:30:42,243 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 22:30:42,927 - jieba - DEBUG - Loading model cost 0.685 seconds.
+2025-03-23 22:30:42,927 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 22:30:42,927 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 22:35:40,575 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-23 22:35:40,578 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-23 22:35:40,578 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 22:35:40,578 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 22:35:41,602 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-23 22:35:41,605 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 22:35:41,605 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 22:35:42,215 - jieba - DEBUG - Loading model cost 0.610 seconds.
+2025-03-23 22:35:42,215 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 22:35:42,215 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-23 23:16:58,874 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-23 23:16:58,874 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-23 23:16:58,874 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 23:16:58,874 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 23:16:59,898 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-23 23:16:59,903 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-23 23:16:59,904 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-23 23:17:00,516 - jieba - DEBUG - Loading model cost 0.613 seconds.
+2025-03-23 23:17:00,516 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-23 23:17:00,517 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-24 01:38:09,560 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-24 01:38:09,560 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-24 01:38:09,560 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-24 01:38:09,560 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-24 01:38:10,552 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-24 01:38:10,552 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-24 01:38:10,554 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-24 01:38:11,154 - jieba - DEBUG - Loading model cost 0.600 seconds.
+2025-03-24 01:38:11,160 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-24 01:38:11,160 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-24 02:21:54,453 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-24 02:21:54,453 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-24 02:21:54,453 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-24 02:21:54,453 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-24 02:21:55,481 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-24 02:21:55,481 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-24 02:21:55,481 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-24 02:21:56,064 - jieba - DEBUG - Loading model cost 0.580 seconds.
+2025-03-24 02:21:56,065 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-24 02:21:56,065 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt
+2025-03-24 02:27:15,035 - ArxivCrawler - INFO - 检测到_proxies配置，尝试使用
+2025-03-24 02:27:15,038 - ArxivCrawler - INFO - 使用配置的代理: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890'}
+2025-03-24 02:27:15,038 - ArxivCrawler - INFO - 设置HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-24 02:27:15,039 - ArxivCrawler - INFO - 设置HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-24 02:27:16,162 - ArxivCrawler - INFO - 成功初始化Qwen API客户端
+2025-03-24 02:27:16,162 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-03-24 02:27:16,162 - jieba - DEBUG - Loading model from cache C:\Users\Can\AppData\Local\Temp\jieba.cache
+2025-03-24 02:27:16,780 - jieba - DEBUG - Loading model cost 0.618 seconds.
+2025-03-24 02:27:16,780 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-03-24 02:27:16,780 - ArxivCrawler - INFO - 已加载自定义词典: llm_dict.txt

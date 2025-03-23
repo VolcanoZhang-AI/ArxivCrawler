@@ -1,0 +1,20 @@
+2025-03-24 02:27:16,787 - ArxivCrawler - INFO - 日志已配置，保存位置: logs\arxiv_crawler_20250324_022716.log
+2025-03-24 02:27:16,788 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-24 02:27:16,788 - ArxivCrawler - INFO - OpenAI包版本: 1.68.2
+2025-03-24 02:27:16,788 - ArxivCrawler - INFO - HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-24 02:27:16,788 - ArxivCrawler - INFO - HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-24 02:27:16,788 - ArxivCrawler - INFO - 已启用Qwen API进行论文中文总结
+2025-03-24 02:27:17,509 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-24 02:27:17,520 - ArxivCrawler - INFO - Qwen API连接测试成功: 你好！有什么可以帮助你的吗？
+2025-03-24 02:27:17,520 - ArxivCrawler - INFO - 计算日期范围: 2025-03-17 到 2025-03-24
+2025-03-24 02:27:17,520 - ArxivCrawler - INFO - 获取日期范围: 2025-03-17 到 2025-03-24
+2025-03-24 02:27:17,520 - ArxivCrawler - INFO - 正在从arXiv获取论文 (日期范围: 2025-03-17 到 2025-03-24)
+2025-03-24 02:27:17,520 - ArxivCrawler - INFO - arXiv查询: ("large language model" OR "LLM" OR "GPT" OR "ChatGPT" OR "transformer" OR "generative AI" OR "language model" OR "foundation model" OR "Llama" OR "Claude" OR "Gemini" OR "agent" OR "multimodal" OR "instruction tuning" OR "prompt" OR "fine-tuning" OR "alignment") AND (cat:cs.CL OR cat:cs.AI OR cat:cs.LG OR cat:cs.CV OR cat:cs.IR OR cat:cs.HC OR cat:cs.NE OR cat:stat.ML OR cat:cs.CR OR cat:cs.SE OR cat:cs.DC OR cat:cs.RO), 日期过滤: submittedDate:[20250317000000 TO 20250324235959]
+2025-03-24 02:27:17,520 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-24 02:27:17,520 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-24 02:27:19,945 - arxiv.arxiv - INFO - Got first page; 1000 of 1000 results available
+2025-03-24 02:27:19,950 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-24 02:27:19,950 - arxiv.arxiv - INFO - Sleeping for 2.995157 seconds
+2025-03-24 02:27:22,949 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-24 02:27:25,514 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-24 02:27:28,517 - arxiv.arxiv - INFO - Requesting page of results

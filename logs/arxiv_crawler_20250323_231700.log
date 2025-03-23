@@ -1,0 +1,47 @@
+2025-03-23 23:17:00,518 - ArxivCrawler - INFO - 日志已配置，保存位置: logs\arxiv_crawler_20250323_231700.log
+2025-03-23 23:17:00,518 - ArxivCrawler - INFO - ArxivCrawler 开始运行...
+2025-03-23 23:17:00,518 - ArxivCrawler - INFO - OpenAI包版本: 1.68.2
+2025-03-23 23:17:00,519 - ArxivCrawler - INFO - HTTP代理环境变量: http://127.0.0.1:7890
+2025-03-23 23:17:00,519 - ArxivCrawler - INFO - HTTPS代理环境变量: http://127.0.0.1:7890
+2025-03-23 23:17:00,519 - ArxivCrawler - INFO - 已启用Qwen API进行论文中文总结
+2025-03-23 23:17:01,167 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-23 23:17:01,170 - ArxivCrawler - INFO - Qwen API连接测试成功: 你好！有什么我能为你做的吗？
+2025-03-23 23:17:01,170 - ArxivCrawler - INFO - 计算日期范围: 2025-03-16 到 2025-03-23
+2025-03-23 23:17:01,170 - ArxivCrawler - INFO - 获取日期范围: 2025-03-16 到 2025-03-23
+2025-03-23 23:17:01,170 - ArxivCrawler - INFO - 正在从arXiv获取论文 (日期范围: 2025-03-16 到 2025-03-23)
+2025-03-23 23:17:01,170 - ArxivCrawler - INFO - arXiv查询: ("large language model" OR "LLM" OR "GPT" OR "ChatGPT" OR "transformer" OR "generative AI" OR "language model" OR "foundation model" OR "Llama" OR "Claude" OR "Gemini" OR "agent" OR "multimodal" OR "instruction tuning" OR "prompt" OR "fine-tuning" OR "alignment") AND (cat:cs.CL OR cat:cs.AI OR cat:cs.LG OR cat:cs.CV OR cat:cs.IR OR cat:cs.HC OR cat:cs.NE OR cat:stat.ML OR cat:cs.CR OR cat:cs.SE OR cat:cs.DC OR cat:cs.RO), 日期过滤: submittedDate:[20250316000000 TO 20250323235959]
+2025-03-23 23:17:01,170 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 23:17:01,170 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 23:17:03,137 - arxiv.arxiv - INFO - Got first page; 1000 of 1000 results available
+2025-03-23 23:17:03,147 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 23:17:03,148 - arxiv.arxiv - INFO - Sleeping for 2.989507 seconds
+2025-03-23 23:17:06,138 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 23:17:07,502 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 23:17:10,504 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 23:17:12,876 - arxiv.arxiv - INFO - Requesting 100 results at offset 200
+2025-03-23 23:17:12,877 - arxiv.arxiv - INFO - Sleeping for 2.995907 seconds
+2025-03-23 23:17:15,874 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 23:17:17,088 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 23:17:20,089 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 23:17:24,454 - arxiv.arxiv - INFO - Requesting 100 results at offset 300
+2025-03-23 23:17:24,455 - arxiv.arxiv - INFO - Sleeping for 2.996130 seconds
+2025-03-23 23:17:27,452 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 23:17:29,124 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 23:17:32,127 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 23:17:33,205 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 23:17:36,207 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 23:17:37,942 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 23:17:40,943 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 23:17:42,319 - ArxivCrawler - ERROR - 获取论文时出错 (尝试 1/3): Page of results was unexpectedly empty (http://export.arxiv.org/api/query?search_query=%28%22large+language+model%22+OR+%22LLM%22+OR+%22GPT%22+OR+%22ChatGPT%22+OR+%22transformer%22+OR+%22generative+AI%22+OR+%22language+model%22+OR+%22foundation+model%22+OR+%22Llama%22+OR+%22Claude%22+OR+%22Gemini%22+OR+%22agent%22+OR+%22multimodal%22+OR+%22instruction+tuning%22+OR+%22prompt%22+OR+%22fine-tuning%22+OR+%22alignment%22%29+AND+%28cat%3Acs.CL+OR+cat%3Acs.AI+OR+cat%3Acs.LG+OR+cat%3Acs.CV+OR+cat%3Acs.IR+OR+cat%3Acs.HC+OR+cat%3Acs.NE+OR+cat%3Astat.ML+OR+cat%3Acs.CR+OR+cat%3Acs.SE+OR+cat%3Acs.DC+OR+cat%3Acs.RO%29&id_list=&sortBy=submittedDate&sortOrder=descending&start=300&max_results=100)
+2025-03-23 23:17:42,319 - ArxivCrawler - INFO - 等待 5 秒后重试...
+2025-03-23 23:17:47,320 - ArxivCrawler - INFO - arXiv查询: ("large language model" OR "LLM" OR "GPT" OR "ChatGPT" OR "transformer" OR "generative AI" OR "language model" OR "foundation model" OR "Llama" OR "Claude" OR "Gemini" OR "agent" OR "multimodal" OR "instruction tuning" OR "prompt" OR "fine-tuning" OR "alignment") AND (cat:cs.CL OR cat:cs.AI OR cat:cs.LG OR cat:cs.CV OR cat:cs.IR OR cat:cs.HC OR cat:cs.NE OR cat:stat.ML OR cat:cs.CR OR cat:cs.SE OR cat:cs.DC OR cat:cs.RO), 日期过滤: submittedDate:[20250316000000 TO 20250323235959]
+2025-03-23 23:17:47,321 - arxiv.arxiv - INFO - Requesting 100 results at offset 0
+2025-03-23 23:17:47,321 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 23:17:49,692 - arxiv.arxiv - INFO - Got first page; 1000 of 1000 results available
+2025-03-23 23:17:49,695 - arxiv.arxiv - INFO - Requesting 100 results at offset 100
+2025-03-23 23:17:49,695 - arxiv.arxiv - INFO - Sleeping for 2.996906 seconds
+2025-03-23 23:17:52,694 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 23:17:54,595 - arxiv.arxiv - INFO - Sleeping for 3.000000 seconds
+2025-03-23 23:17:57,596 - arxiv.arxiv - INFO - Requesting page of results
+2025-03-23 23:17:59,985 - arxiv.arxiv - INFO - Requesting 100 results at offset 200
+2025-03-23 23:17:59,985 - arxiv.arxiv - INFO - Sleeping for 2.996342 seconds

@@ -1,0 +1,8 @@
+numpy==1.23.5
+arxiv==1.4.7
+pandas==2.0.3
+jieba==0.42.1
+pyecharts==2.0.3
+requests==2.31.0
+openai>=1.68.2
+httpx>=0.23.0 
