@@ -1,5 +1,5 @@
 {
-    "qwen_api_key": "sk-1212b541dbff4976aa5975e4b369093e",
+    "qwen_api_key": "your api key",
     "qwen_api_base": "https://dashscope.aliyuncs.com/compatible-mode/v1",
     "max_tokens": 1000,
     "temperature": 0.7,
